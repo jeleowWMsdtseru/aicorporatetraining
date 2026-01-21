@@ -226,7 +226,8 @@
 
         <main class="container mx-auto px-6 pt-24">
             
-            <section id="hero-section" class="section-with-bg text-center -mx-6 px-6 py-24 md:py-32 rounded-b-3xl text-white">
+            <!-- Removed rounded corners from hero section -->
+            <section id="hero-section" class="section-with-bg text-center -mx-6 px-6 pt-12 pb-8 md:pt-20 md:pb-12 text-white">
                 <div class="relative z-10">
                     <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight hero-animate">
                         Private AI <span class="gradient-text">Corporate Training</span> for Teams
@@ -248,7 +249,7 @@
                 </div>
             </section>
 
-            <!-- Moving Ribbon Segment -->
+            <!-- Moving Ribbon sits directly below the square hero -->
             <div class="bg-indigo-900 overflow-hidden py-3 -mx-6">
                 <div class="marquee whitespace-nowrap text-white font-bold uppercase tracking-widest text-sm flex items-center">
                     <span class="mx-8">1200+ people certified on applied AI</span>
@@ -274,6 +275,50 @@
                     <span class="mx-8">•</span>
                 </div>
             </div>
+
+            <!-- Client Portfolio Logos (Removed rounded corners) -->
+            <section id="clients" class="section-with-bg pt-12 pb-16 md:pt-16 md:pb-20 fade-in-section -mx-6 px-6">
+                <div class="relative z-10 text-center mb-8">
+                    <h2 class="text-sm font-bold uppercase tracking-widest gradient-text">Enterprise Trust</h2>
+                    <p class="text-4xl font-bold mt-2 text-white uppercase">Our Corporate Client Portfolio</p>
+                </div>
+                <div class="relative z-10 flex justify-center px-4">
+                    <img src="https://github.com/drhanlau/n8n-course/blob/main/Corporate%20clients.png?raw=true" alt="Corporate clients collage" class="max-w-4xl w-full h-auto rounded-lg shadow-lg">
+                </div>
+            </section>
+
+            <!-- Training Activity Highlights -->
+            <section id="activity" class="py-20 fade-in-section bg-gray-50 -mx-6 px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-sm font-bold uppercase tracking-widest gradient-text">The Lead in Action</h2>
+                    <p class="text-4xl font-bold mt-2">Training Activity Highlights</p>
+                </div>
+                <div class="max-w-7xl mx-auto px-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                        <div class="lg:col-span-2 lg:row-span-2 overflow-hidden rounded-xl shadow-lg group">
+                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1754884319246.jpeg?raw=true" alt="AI Corporate Workshop Activity" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="overflow-hidden rounded-xl shadow-lg group aspect-square">
+                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1758626258488.jpeg?raw=true" alt="Interactive Session" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="overflow-hidden rounded-xl shadow-lg group aspect-square">
+                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1757431968199.jpeg?raw=true" alt="Hands-on Practical Training" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="overflow-hidden rounded-xl shadow-lg group aspect-video lg:aspect-auto">
+                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1764942681049.jpeg?raw=true" alt="Team Collaboration" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="overflow-hidden rounded-xl shadow-lg group aspect-video lg:aspect-auto">
+                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1768190300966.jpeg?raw=true" alt="Strategy Session" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="overflow-hidden rounded-xl shadow-lg group lg:col-span-2 aspect-video">
+                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1768190301984.jpeg?raw=true" alt="Certification Ceremony" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                        </div>
+                        <div class="overflow-hidden rounded-xl shadow-lg group lg:col-span-2 aspect-video">
+                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1768398283421.jpeg?raw=true" alt="Workshop Highlights" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section id="services" class="py-20 fade-in-section">
                 <div class="text-center mb-12">
@@ -486,16 +531,6 @@
                 </div>
             </section>
 
-            <section id="clients" class="section-with-bg py-20 fade-in-section -mx-6 px-6 rounded-xl">
-                <div class="relative z-10 text-center mb-12">
-                    <h2 class="text-sm font-bold uppercase tracking-widest gradient-text">Enterprise Trust</h2>
-                    <p class="text-4xl font-bold mt-2 text-white uppercase">Our Corporate Client Portfolio</p>
-                </div>
-                <div class="relative z-10 flex justify-center px-4">
-                    <img src="https://github.com/drhanlau/n8n-course/blob/main/Corporate%20clients.png?raw=true" alt="Corporate clients collage" class="max-w-4xl w-full h-auto rounded-lg shadow-lg">
-                </div>
-            </section>
-
             <section id="hrdc" class="py-20 fade-in-section bg-white">
                 <div class="container mx-auto px-6">
                     <div class="flex flex-col md:flex-row items-center justify-center gap-12">
@@ -576,39 +611,6 @@
                         <img class="w-32 h-32 mx-auto rounded-full object-cover shadow-lg" src="https://yyc.asia/wp-content/uploads/2024/03/Wei-Khjan-PhotoRoom.png-PhotoRoom-400x400.png" alt="Chan Wei Khjan">
                         <h3 class="mt-4 text-xl font-bold">Chan Wei Khjan</h3>
                         <p class="mt-2 text-gray-600 text-sm flex-grow">Finance & Governance specialist. Ensuring AI adoption aligns with corporate compliance and fiscal accountability.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Activity Highlights Segment -->
-            <section id="activity" class="py-20 fade-in-section bg-gray-50 -mx-6 px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-sm font-bold uppercase tracking-widest gradient-text">The Lead in Action</h2>
-                    <p class="text-4xl font-bold mt-2">Training Activity Highlights</p>
-                </div>
-                <div class="max-w-7xl mx-auto px-4">
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                        <div class="lg:col-span-2 lg:row-span-2 overflow-hidden rounded-xl shadow-lg group">
-                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1754884319246.jpeg?raw=true" alt="AI Corporate Workshop Activity" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
-                        </div>
-                        <div class="overflow-hidden rounded-xl shadow-lg group aspect-square">
-                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1758626258488.jpeg?raw=true" alt="Interactive Session" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
-                        </div>
-                        <div class="overflow-hidden rounded-xl shadow-lg group aspect-square">
-                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1757431968199.jpeg?raw=true" alt="Hands-on Practical Training" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
-                        </div>
-                        <div class="overflow-hidden rounded-xl shadow-lg group aspect-video lg:aspect-auto">
-                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1764942681049.jpeg?raw=true" alt="Team Collaboration" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
-                        </div>
-                        <div class="overflow-hidden rounded-xl shadow-lg group aspect-video lg:aspect-auto">
-                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1768190300966.jpeg?raw=true" alt="Strategy Session" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
-                        </div>
-                        <div class="overflow-hidden rounded-xl shadow-lg group lg:col-span-2 aspect-video">
-                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1768190301984.jpeg?raw=true" alt="Certification Ceremony" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
-                        </div>
-                        <div class="overflow-hidden rounded-xl shadow-lg group lg:col-span-2 aspect-video">
-                            <img src="https://github.com/jeleowWMsdtseru/aicorporatetraining/blob/main/1768398283421.jpeg?raw=true" alt="Workshop Highlights" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
-                        </div>
                     </div>
                 </div>
             </section>
